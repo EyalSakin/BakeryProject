@@ -1,0 +1,33 @@
+html{
+  height: 100%;
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+}
+body{
+  height: 100%;
+}
+#container{
+  padding: 0;
+  height: 100%;
+}
+#flex-container{
+  display: flex;
+  list-style-type: none;
+  margin: 0; padding: 0;
+  flex-wrap: nowrap;
+}
+.firstList:first-child{
+  height: 587px;
+  width: 899px;
+  background-image: url('./assets/upperBread.png');
+  background-repeat: no-repeat;
+  position: relative;
+  top: -10px;
+  left: 200px;
+  z-index: 1;
+}
+.firstList:last-child{
+  background-color: white;
+  height: 518px;
+  width: 494px;
+}
